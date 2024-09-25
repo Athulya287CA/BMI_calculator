@@ -30,7 +30,7 @@ body{
   border-radius: 20px;
   width:35%;
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.217);
-  margin-left: 400px;
+  margin-left: 700px;
 }
 
 .form{
@@ -171,3 +171,16 @@ input.hover{
     margin: 10px 0px;
     border-radius: 10px;
 }
+
+@media  (max-width: 1000px) {
+    body,html{
+        background: whitesmoke;
+        margin-left: 0px;
+    }
+    .main{
+        width:100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
+
