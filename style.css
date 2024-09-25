@@ -21,6 +21,9 @@ body {
     
     /* font-family: "Playpen Sans", cursive; */
 }
+body{
+    overflow: hidden;
+}
 .main{
   background: white;
   padding: 30px;

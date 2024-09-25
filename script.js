@@ -40,7 +40,7 @@ function bmi(height, weight) {
     else if(bmiValue>=18.5 && bmiValue<=24.9 ){
         result2='Normal'
         gsap.to(".green", { width: "1000%", duration: 1, ease: "power1.inOut" });
-        gsap.to(".result", { backgroundColor:"lightgreen",delay: 0, width: "100%", duration: 2, ease: "power1.inOut" });
+        gsap.to(".result", { backgroundColor:"lightgreen",delay: 0, width: "100%", duration: 1.5, ease: "power1.inOut" });
 
     }
     else if(bmiValue>=25 && bmiValue<=29.9 ){
